@@ -4,61 +4,64 @@
 
 ## Example usage.
 
-Initialize object:
+###Initialize object:
 
 var emailPermulator = new EmailPermutator('edionme', 'larosa', 'gmail.com');
 
 emailPermulator.addSpecialCharBetweenNames();
+
 emailPermulator.addEmailByFirstCharCombination();
+
 emailPermulator.addSpecialCharBetweenNames();
 
-Get emails:
+###Get emails:
+
 emailPermulator.availableEmail();
 
 ### Sample results:
 
-edionme-larosa@gmail.com
-larosa-edionme@gmail.com
-e-larosa@gmail.com
-edionme-l@gmail.com
-e-l@gmail.com
-edionme.larosa@gmail.com
-larosa.edionme@gmail.com
-e.larosa@gmail.com
-edionme.l@gmail.com
-e.l@gmail.com
-edionme_larosa@gmail.com
-larosa_edionme@gmail.com
-e_larosa@gmail.com
-edionme_l@gmail.com
-e_l@gmail.com
-edionmelarosa@gmail.com
-larosaedionme@gmail.com
-larosae@gmail.com
-l.e@gmail.com
-l.edionme@gmail.com
-le@gmail.com
-elarosa@gmail.com
-edionmel@gmail.com
-el@gmail.com
-edionme-larosa@gmail.com
-larosa-edionme@gmail.com
-e-larosa@gmail.com
-edionme-l@gmail.com
-e-l@gmail.com
-edionme.larosa@gmail.com
-larosa.edionme@gmail.com
-e.larosa@gmail.com
-edionme.l@gmail.com
-e.l@gmail.com
-edionme_larosa@gmail.com
-larosa_edionme@gmail.com
-e_larosa@gmail.com
-edionme_l@gmail.com
-e_l@gmail.com
-edionmelarosa@gmail.com
-larosaedionme@gmail.com
-larosae@gmail.com
-l.e@gmail.com
-l.edionme@gmail.com
-le@gmail.com
+foo-master@gmail.com
+master-foo@gmail.com
+f-master@gmail.com
+foo-m@gmail.com
+f-m@gmail.com
+foo.master@gmail.com
+master.foo@gmail.com
+f.master@gmail.com
+foo.m@gmail.com
+f.m@gmail.com
+foo_master@gmail.com
+master_foo@gmail.com
+f_master@gmail.com
+foo_m@gmail.com
+f_m@gmail.com
+foomaster@gmail.com
+masterfoo@gmail.com
+masterf@gmail.com
+m.f@gmail.com
+m.foo@gmail.com
+mf@gmail.com
+fmaster@gmail.com
+foom@gmail.com
+fm@gmail.com
+foo-master@gmail.com
+master-foo@gmail.com
+f-master@gmail.com
+foo-m@gmail.com
+f-m@gmail.com
+foo.master@gmail.com
+master.foo@gmail.com
+f.master@gmail.com
+foo.m@gmail.com
+f.m@gmail.com
+foo_master@gmail.com
+master_foo@gmail.com
+f_master@gmail.com
+foo_m@gmail.com
+f_m@gmail.com
+foomaster@gmail.com
+masterfoo@gmail.com
+masterf@gmail.com
+m.f@gmail.com
+m.foo@gmail.com
+mf@gmail.com
