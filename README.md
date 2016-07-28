@@ -6,7 +6,7 @@
 
 ###Initialize object:
 
-var emailPermulator = new EmailPermutator('edionme', 'larosa', 'gmail.com');
+var emailPermulator = new EmailPermutator('foo', 'master', 'gmail.com');
 
 emailPermulator.addSpecialCharBetweenNames();
 
