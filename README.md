@@ -1,6 +1,6 @@
 # email-permutator
 
-## This is very simple email permutator using JS
+## This is very simple email permutator
 
 ## Example usage.
 
