@@ -1,8 +1,7 @@
-# email-permutator
 
 ## This is very simple email permutator
 
-## Example usage.
+### Example usage.
 
 ###Initialize object:
 
